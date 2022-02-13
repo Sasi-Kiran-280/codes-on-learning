@@ -1,3 +1,4 @@
+***sum and average of a 2d array***
 #include<stdio.h>
 int main()
 {
@@ -16,4 +17,23 @@ int main()
    printf("\n%f",sum);
     /*avg=sum/4;
     printf("\n%f",avg);*/
+}
+
+***sum of column or row in a 2d array***
+#include<stdio.h>
+int main()
+{
+    int sum=0,i,j,c[2][3];
+    for(i=0;i<2;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+         scanf("%d",&c[i][j]);   
+        }
+    }
+    for(j=0;j<3;j++)
+    {
+        sum=sum+c[1][j];
+    }
+    printf("%d",sum);
 }
