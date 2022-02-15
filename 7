@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{int n,i,rem,c=0;
+printf("enter a num:");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+rem=n%10;
+n=n/10;
+if(rem==0)
+{c++;
+}
+}
+printf("%d",c);
+}

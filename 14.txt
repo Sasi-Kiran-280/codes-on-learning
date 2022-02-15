@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{int a;
+printf("a:");
+scanf("%d",&a);
+int b=2;
+if(a%b==0)
+{printf("the LSB is 0");
+}
+else 
+{printf("the LSB is 1");
+}
+}
+
+

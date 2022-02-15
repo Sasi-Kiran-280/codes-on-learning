@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{
+	int num,bnum,r,i=0;
+	scanf("%d",&num);
+	while(num!=0)
+	{
+		r=num%2;
+		bnum=bnum+r*pow(10,i);
+		num=num/2;
+		i++;
+	}
+	printf("%d",bnum);
+}

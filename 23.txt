@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main()
+{ int n1,n2,n3,i,max,min1,min2;
+printf("enter first value");
+scanf("%d",&n1);
+printf("enter second value");
+scanf("%d",&n2);
+printf("enter third value");
+scanf("%d",&n3);
+if(n3>n2&&n3>n1)
+{
+printf("%d is max ",n3);
+max=n3;
+min1=n1;
+min2=n2;
+}
+else if(n2>n3&&n2>n1)
+{
+
+max=n2;
+min1=n3;
+min2=n1;
+}
+else if(n1>n2&&n1>n3) 
+{
+
+max=n1;
+min1=n3;
+min2=n2;
+}
+
+if (min1>min2)
+printf("min1 %d is second max",min1);
+else 
+printf("min2 %d is second max",min2);
+}
+
+
+
+

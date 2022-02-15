@@ -1,0 +1,9 @@
+#include<stdio.h>
+main()
+{int y;
+scanf("%d",&y);
+if(y%4==0)
+printf(" it is leap");
+else
+printf("not leap");
+}

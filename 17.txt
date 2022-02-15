@@ -1,0 +1,9 @@
+#include<stdio.h>
+main()
+{int n,com,twocom;
+printf("enter the number to get one's complement:");
+scanf("%d",&n);
+com=(~n)*(-1);
+twocom=com+1;
+printf("%d",twocom);
+}

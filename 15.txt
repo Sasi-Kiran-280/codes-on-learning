@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{int num,n,bitstatus;
+printf("enter the number:");
+scanf("%d",&num);
+printf("enter the nth position of bit(0-31):");
+scanf("%d",&n);
+bitstatus=(num>>n)&1;
+printf("the %d position is set to %d",n,bitstatus);
+}
+
+

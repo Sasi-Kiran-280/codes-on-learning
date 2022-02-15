@@ -1,0 +1,23 @@
+#include<stdio.h>
+main()
+{int n1,n2,i,rem,sum,n;
+printf("enter a first num:");
+scanf("%d",&n1);
+printf("enter a last num:");
+scanf("%d",&n2);
+for(i=n1;i<=n2;i++)
+{n=i;
+sum=0;
+while(n>0)
+{rem=n%10;
+n=n/10;
+sum=sum+rem*rem*rem;
+}
+if(i==sum)
+printf("%d\n",i);
+}
+}
+
+
+
+
